@@ -1,0 +1,25 @@
+input {
+    font-family: calibri;
+}
+body {
+    padding: 15px;
+    align-items: center;
+}
+button {
+    background-color: rgb(250, 179, 46);
+}
+form {
+    background-color: rgb(181, 204, 247);
+    border: solid;
+    padding-left: 15px;
+    width: 30%;
+    height: 60%;
+    margin-left: 450px;
+}
+hr {
+    color: black;
+}
+#submit {
+    height: 30px;
+    width: 180px;
+}
