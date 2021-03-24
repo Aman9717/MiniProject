@@ -1,25 +1,47 @@
-input {
-    font-family: calibri;
+body{
+    font-family: Calibri;
 }
-body {
-    padding: 15px;
-    align-items: center;
-}
-button {
-    background-color: rgb(250, 179, 46);
-}
-form {
-    background-color: rgb(181, 204, 247);
-    border: solid;
-    padding-left: 15px;
+
+#parent{
     width: 30%;
-    height: 60%;
-    margin-left: 450px;
-}
-hr {
+    align: center;
+    border: 2px solid black;
+    background-color: cornflowerblue;
     color: black;
+    margin: auto;
+    padding: 10px;
+}
+#heading{
+    text-align: center;
+}
+hr{
+    background-color: lightblue;
+    border:2px solid blue;
+}
+
+#view{
+    width:60%;
+    align: center;
+    margin: auto;
+    padding: 5px;
+}
+#result_div{
+    width:70%;
+    align: center;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+#result_table {
+    border-spacing: 10px;
+
+}
+#result_table tr td{
+    border: 2px solid black;
+
 }
 #submit {
     height: 30px;
-    width: 180px;
+    width: 105px;
+    background-color: yellow;
 }
